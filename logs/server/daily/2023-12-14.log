@@ -1,0 +1,615 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T07:01:24.116Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:01:36.790Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T07:02:22.213Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (D:\\BridgeLabbz\\Backend1\\fundoo-note\\src\\config\\/database.js:12:20)\n    at tryCatch (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at database (D:\\BridgeLabbz\\Backend1\\fundoo-note\\src\\config\\/database.js:4:15)\n    at Object.<anonymous> (D:\\BridgeLabbz\\Backend1\\fundoo-note\\src\\/index.js:30:9)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-12-14T07:02:52.222Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:03:21.255Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:03:21.275Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:04:07.843Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:04:07.865Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:05:27.063Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:05:27.084Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:06:21.902Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:06:21.923Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:06:45.690Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:06:45.710Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:07:09.350Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:07:09.372Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:07:17.667Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:07:17.688Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:07:29.581Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:07:29.603Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:07:52.573Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:07:52.595Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:08:14.861Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:08:14.880Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:08:55.598Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:08:55.619Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:10:50.079Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:10:50.100Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:12:22.030Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:12:22.108Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:12:46.137Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:12:46.161Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:12:55.232Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:12:55.254Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:14:07.808Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:14:07.830Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:14:18.340Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:14:18.360Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:14:34.929Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:14:34.950Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:14:47.993Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:14:48.022Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:15:18.375Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:15:18.396Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:15:40.150Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:15:40.194Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:16:00.813Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:16:00.843Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:16:06.445Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:16:06.471Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:16:17.083Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:16:17.158Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:16:26.106Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:16:26.131Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:16:45.519Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:16:45.560Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:16:59.533Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:16:59.585Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:17:27.456Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:17:27.475Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:17:36.465Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:17:36.485Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:20:01.788Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:20:01.809Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:20:10.043Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:20:10.065Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:20:14.847Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:20:14.871Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:20:30.379Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:20:30.405Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:20:42.296Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:20:42.316Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:20:48.999Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:20:49.024Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:20:57.081Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:20:57.150Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:21:04.916Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:21:04.939Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:21:50.798Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:21:50.844Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:22:36.999Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:22:37.029Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:23:35.192Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:23:35.235Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:23:37.167Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:23:57.304Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:24:12.844Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:24:35.563Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:25:21.304Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:25:34.118Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:27:43.500Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:28:17.556Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:28:27.659Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:29:48.269Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:30:08.699Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:31:08.692Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:31:08.724Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:35:21.205Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:35:21.281Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:36:30.837Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:36:30.859Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:37:53.524Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:37:53.546Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:40:23.935Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:40:23.958Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:41:08.207Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:41:08.229Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:41:16.364Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:41:16.402Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:41:35.439Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:41:35.458Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:41:48.828Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:41:48.848Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:42:58.808Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:42:58.828Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:43:33.485Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:43:33.509Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:44:27.998Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:44:28.019Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: fName: Path `fName` is required.
+    at model.Document.invalidate (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-12-14T07:44:30.244Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:45:04.722Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:45:04.744Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:47:48.408Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:47:48.429Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:47:54.478Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:47:54.501Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:51:15.813Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:51:15.835Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required., password: Path `password` is required., emailId: Path `emailId` is required., phNo: Path `phNo` is required., lName: Path `lName` is required., fName: Path `fName` is required.
+    at model.Document.invalidate (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-12-14T07:51:37.256Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:52:31.621Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:52:31.652Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required., password: Path `password` is required., emailId: Path `emailId` is required., phNo: Path `phNo` is required., lName: Path `lName` is required., fName: Path `fName` is required.
+    at model.Document.invalidate (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-12-14T07:52:38.264Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:53:30.305Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:53:30.330Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:54:26.520Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:54:26.542Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:54:31.385Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:54:31.411Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:54:37.968Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:54:37.996Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:54:45.233Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:54:45.255Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:54:51.624Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:54:51.652Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:55:04.408Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:55:04.440Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:55:18.840Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:55:18.872Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:56:04.404Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:56:04.438Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:56:09.247Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:56:09.269Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:56:13.655Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:56:13.678Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:56:19.510Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:56:19.532Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T07:57:11.420Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T07:57:11.445Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:02:36.956Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:02:36.976Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-12-14T08:02:54.330Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:03:30.348Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:03:30.368Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-12-14T08:04:17.395Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:04:36.431Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:04:36.457Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:04:49.368Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:04:49.389Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-12-14T08:05:03.182Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:05:17.821Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:05:17.840Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:05:41.499Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:05:41.518Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:06:26.292Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:06:26.311Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-12-14T08:06:35.807Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-12-14T08:06:37.513Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:07:08.215Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:07:08.238Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:07:29.570Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:07:29.601Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:09:08.323Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:09:08.343Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:09:45.664Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:09:45.683Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:10:26.827Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:10:26.847Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:11:20.290Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:11:20.311Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:12:10.880Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:12:10.914Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:12:42.827Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:12:42.856Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T08:17:48.404Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:17:48.433Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:18:13.858Z"}
+info: Server started at http://127.0.0.1:3001/api/v1/ {"timestamp":"2023-12-14T08:18:40.901Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:18:40.923Z"}
+info: Server started at http://127.0.0.1:3001/api/v1/ {"timestamp":"2023-12-14T08:21:44.464Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:21:44.484Z"}
+info: Server started at http://127.0.0.1:3001/api/v1/ {"timestamp":"2023-12-14T08:23:41.946Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:23:41.968Z"}
+info: Server started at http://127.0.0.1:3001/api/v1/ {"timestamp":"2023-12-14T08:27:40.256Z"}
+info: Server started at http://127.0.0.1:3001/api/v1/ {"timestamp":"2023-12-14T08:28:03.176Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:28:03.198Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2023-12-14T08:28:44.643Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:28:44.668Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2023-12-14T08:33:58.434Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:33:58.508Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:34:20.783Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:34:20.793Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:34:38.509Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:34:38.528Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:34:50.132Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:34:50.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T08:35:19.490Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:35:19.520Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T08:39:16.442Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:39:16.543Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:39:16.563Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T08:39:59.249Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:39:59.313Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:39:59.356Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:40:43.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T08:42:09.601Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:42:09.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T08:43:08.220Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:43:08.248Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required., password: Path `password` is required., emailId: Path `emailId` is required., phNo: Path `phNo` is required., lName: Path `lName` is required., fName: Path `fName` is required.
+    at model.Document.invalidate (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-12-14T08:43:20.361Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required., password: Path `password` is required., emailId: Path `emailId` is required., phNo: Path `phNo` is required., lName: Path `lName` is required., fName: Path `fName` is required.
+    at model.Document.invalidate (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T08:43:58.082Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T08:44:21.892Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:44:21.937Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required., password: Path `password` is required., emailId: Path `emailId` is required., phNo: Path `phNo` is required., lName: Path `lName` is required., fName: Path `fName` is required.
+    at model.Document.invalidate (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T08:44:36.225Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T08:44:54.098Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:44:54.162Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required., password: Path `password` is required., emailId: Path `emailId` is required., phNo: Path `phNo` is required., lName: Path `lName` is required., fName: Path `fName` is required.
+    at model.Document.invalidate (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T08:45:15.716Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T08:45:42.799Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:45:42.847Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required., password: Path `password` is required., emailId: Path `emailId` is required., phNo: Path `phNo` is required., lName: Path `lName` is required., fName: Path `fName` is required.
+    at model.Document.invalidate (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T08:46:23.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T08:48:14.876Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:48:14.942Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmPassword: Path `confirmPassword` is required., password: Path `password` is required., emailId: Path `emailId` is required., phNo: Path `phNo` is required., lName: Path `lName` is required., fName: Path `fName` is required.
+    at model.Document.invalidate (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\document.js:2578:17
+    at D:\BridgeLabbz\Backend1\fundoo-note\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-14T08:48:43.531Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T08:49:09.816Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:49:09.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T08:49:39.732Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:49:39.776Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T08:50:03.083Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T08:50:03.117Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:01:13.801Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:01:13.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-14T09:01:54.507Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:01:54.581Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:03:03.134Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:03:03.190Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:18:14.948Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:18:15.011Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:22:42.255Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:22:42.319Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:22:56.137Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:22:56.192Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:24:02.354Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:24:02.390Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:27:09.972Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:27:10.020Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:28:23.881Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:28:23.917Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:34:37.297Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:34:37.337Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:37:17.420Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:37:17.468Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:37:18.035Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:42:26.256Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:42:59.580Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:43:35.341Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:44:03.647Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:44:12.146Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:44:26.814Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:44:42.700Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:44:49.882Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:47:49.284Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:47:49.350Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:49:30.463Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:49:30.503Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:50:58.794Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:50:58.844Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:55:29.044Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:55:29.087Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:56:27.384Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:56:27.455Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:57:04.021Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:57:04.052Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:57:55.347Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:57:55.379Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:58:06.242Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:58:06.273Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T09:58:29.679Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T09:58:29.744Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:01:48.150Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:01:48.182Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:02:44.763Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:02:44.805Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:03:10.530Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:03:10.585Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:04:02.933Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:04:02.971Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:04:14.203Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:04:14.260Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:06:22.921Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:06:22.979Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:06:34.319Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:06:34.361Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:06:46.585Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:06:46.636Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:11:26.106Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:11:26.157Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:11:39.891Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:11:39.947Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:12:23.895Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:12:23.929Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:12:53.548Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:12:53.583Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:14:30.654Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:14:30.716Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:14:42.906Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:14:42.936Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:15:16.910Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:15:16.954Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:15:37.365Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:15:37.395Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:15:59.991Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:16:00.036Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:16:39.565Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:16:39.594Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:18:30.414Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:18:30.461Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:21:01.507Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:21:01.529Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:28:16.475Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:28:16.501Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:28:27.472Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:28:27.494Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:29:23.300Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:29:23.320Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:29:27.038Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:29:27.060Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:29:36.495Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:29:36.516Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:30:42.382Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:30:42.403Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:30:48.926Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:30:48.953Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:30:59.095Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:30:59.118Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:31:24.039Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:31:24.060Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:31:38.591Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:31:38.611Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:36:16.953Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:36:16.979Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:36:26.814Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:36:26.841Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:36:59.024Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:36:59.046Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:37:40.528Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:37:40.550Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:37:52.463Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:37:52.483Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:38:15.025Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:38:15.049Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:39:32.346Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:39:32.366Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:41:20.102Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:41:20.122Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:41:35.108Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:41:35.127Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:42:14.516Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:42:14.536Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:42:27.433Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:42:27.465Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:43:43.088Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:43:43.108Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:44:12.648Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:44:12.670Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:44:24.854Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:44:24.876Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:44:51.419Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:44:51.440Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:45:04.560Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:45:04.585Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:45:28.286Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:45:28.312Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:45:46.816Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:45:46.837Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:46:02.056Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:46:02.077Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:48:49.552Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:48:49.587Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:48:57.165Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:48:57.185Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:49:06.700Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:49:06.721Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:49:51.562Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:49:51.588Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:50:29.356Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:50:29.376Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:53:32.609Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:53:32.632Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:53:55.513Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:53:55.534Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:54:35.981Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:54:36.002Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:54:46.925Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:54:46.948Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:54:53.706Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:54:53.725Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:55:04.904Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:55:04.938Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:55:45.968Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:55:45.992Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:55:59.010Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:55:59.042Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:56:09.195Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:56:09.229Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:56:21.331Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:56:21.353Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:56:47.847Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:56:47.867Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:59:36.450Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:59:36.469Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T10:59:46.818Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T10:59:46.853Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:00:13.184Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:00:13.207Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:00:43.171Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:00:43.190Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:01:41.670Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:01:41.691Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:02:06.524Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:02:06.550Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:02:48.656Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:02:48.677Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:03:42.467Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:03:42.492Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:03:48.003Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:03:48.027Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:04:33.418Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:04:33.438Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:07:33.358Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:07:33.379Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:14:31.253Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:14:31.273Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:14:54.123Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:14:54.143Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:15:07.978Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:15:28.268Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:16:39.687Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:16:39.908Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:17:11.422Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:18:45.412Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:18:45.431Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:21:08.838Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:21:08.863Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:21:14.832Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:21:14.851Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:22:08.642Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:22:08.663Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:31:44.381Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:31:44.413Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:32:27.467Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:32:27.497Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:32:35.185Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:32:35.219Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:33:36.715Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:33:36.752Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:34:00.073Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:34:00.106Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:34:36.569Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:34:36.618Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:35:06.886Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:35:06.952Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:35:55.279Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:35:55.309Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:37:22.495Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:37:22.540Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:38:06.540Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:38:06.602Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:38:26.883Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:38:27.074Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:39:57.355Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:39:57.427Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T11:41:51.518Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:41:51.662Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:42:01.610Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:45:47.409Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T11:46:02.674Z"}
