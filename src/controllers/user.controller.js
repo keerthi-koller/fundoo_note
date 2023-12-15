@@ -1,7 +1,7 @@
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
 
-export const newUser = async (req, res, next) => {
+export const newUser = async (req, res) => {
     try {
       const data = await UserService.newUser(req.body);
       res.status(HttpStatus.CREATED).json({
@@ -17,8 +17,7 @@ export const newUser = async (req, res, next) => {
     }
 };
 
-export const loginUser = async (req, res, next) => {
-
+export const loginUser = async (req, res) => {
     try {
       const data = await UserService.loginUser(req.body.emailId, req.body.password);
       res.status(HttpStatus.ACCEPTED).json({
