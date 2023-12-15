@@ -2573,3 +2573,86 @@ info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T0
 info: Connected to the database. {"timestamp":"2023-12-15T06:08:12.844Z"}
 info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T06:08:22.942Z"}
 info: Connected to the database. {"timestamp":"2023-12-15T06:08:22.959Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T06:32:29.735Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T06:32:29.751Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:32:22.870Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:32:22.910Z"}
+error: uncaughtException: bcrypt is not defined
+ReferenceError: bcrypt is not defined
+    at _callee$ (D:\BridgeLabbz\Backend1\fundoo-note\src\services\/user.service.js:9:13)
+    at tryCatch (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 13:06:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":162550.046},"process":{"argv":["node","D:\\BridgeLabbz\\Backend1\\fundoo-note\\src\\index.js"],"cwd":"D:\\BridgeLabbz\\Backend1\\fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18308823,"external":19843743,"heapTotal":50884608,"heapUsed":47243072,"rss":91197440},"pid":10280,"uid":null,"version":"v18.16.1"},"stack":"ReferenceError: bcrypt is not defined\n    at _callee$ (D:\\BridgeLabbz\\Backend1\\fundoo-note\\src\\services\\/user.service.js:9:13)\n    at tryCatch (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-15T07:36:20.371Z","trace":[{"column":13,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\src\\services\\/user.service.js","function":"_callee$","line":9,"method":null,"native":false},{"column":16,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:37:44.778Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:37:44.806Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:41:00.702Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:41:00.752Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:41:48.196Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:41:48.240Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:42:11.297Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:42:11.411Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:42:38.383Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:42:38.418Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:43:05.102Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:43:05.145Z"}
+error: uncaughtException: User Already Exists!!
+Error: User Already Exists!!
+    at _callee$ (D:\BridgeLabbz\Backend1\fundoo-note\src\services\/user.service.js:19:11)
+    at tryCatch (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 13:13:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":162962.484},"process":{"argv":["node","D:\\BridgeLabbz\\Backend1\\fundoo-note\\src\\index.js"],"cwd":"D:\\BridgeLabbz\\Backend1\\fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18428326,"external":19965378,"heapTotal":93032448,"heapUsed":51395408,"rss":132071424},"pid":19780,"uid":null,"version":"v18.16.1"},"stack":"Error: User Already Exists!!\n    at _callee$ (D:\\BridgeLabbz\\Backend1\\fundoo-note\\src\\services\\/user.service.js:19:11)\n    at tryCatch (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-15T07:43:12.806Z","trace":[{"column":11,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\src\\services\\/user.service.js","function":"_callee$","line":19,"method":null,"native":false},{"column":16,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:44:10.545Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:44:10.596Z"}
+error: uncaughtException: User Already Exists!!
+Error: User Already Exists!!
+    at _callee$ (D:\BridgeLabbz\Backend1\fundoo-note\src\services\/user.service.js:19:11)
+    at tryCatch (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\BridgeLabbz\Backend1\fundoo-note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Dec 15 2023 13:14:30 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":163040.468},"process":{"argv":["node","D:\\BridgeLabbz\\Backend1\\fundoo-note\\src\\index.js"],"cwd":"D:\\BridgeLabbz\\Backend1\\fundoo-note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18287106,"external":19921133,"heapTotal":52400128,"heapUsed":49108936,"rss":92577792},"pid":18588,"uid":null,"version":"v18.16.1"},"stack":"Error: User Already Exists!!\n    at _callee$ (D:\\BridgeLabbz\\Backend1\\fundoo-note\\src\\services\\/user.service.js:19:11)\n    at tryCatch (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-15T07:44:30.778Z","trace":[{"column":11,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\src\\services\\/user.service.js","function":"_callee$","line":19,"method":null,"native":false},{"column":16,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\BridgeLabbz\\Backend1\\fundoo-note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:44:59.559Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:44:59.586Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:45:58.495Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:45:58.531Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:46:14.584Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:46:14.628Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:46:52.901Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:46:52.942Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:50:21.057Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:50:21.126Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:52:04.176Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:52:04.244Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T07:53:07.977Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T07:53:08.017Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T08:03:30.670Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:03:30.687Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T08:30:26.544Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:30:26.657Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T08:31:06.820Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:31:06.892Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T08:32:04.183Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:32:04.227Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T08:32:47.763Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:32:47.795Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T08:34:17.027Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:34:17.072Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T08:35:16.447Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:35:16.494Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T08:36:42.421Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:36:42.447Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T08:37:16.214Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:37:16.314Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T08:37:26.386Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:37:26.430Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T08:37:37.388Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:37:37.465Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-15T08:50:04.663Z"}
+info: Connected to the database. {"timestamp":"2023-12-15T08:50:04.774Z"}

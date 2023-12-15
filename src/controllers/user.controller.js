@@ -2,85 +2,34 @@ import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
 
 export const newUser = async (req, res, next) => {
-  const data = await UserService.newUser(req.body);
-  if (data === "Password mismatch!!")
-  {
     try {
-      res.status(HttpStatus.NOT_ACCEPTABLE).json({
-        code: HttpStatus.NOT_ACCEPTABLE,
-        data: data,
-        message: 'Password missmatch'
-      });
-    } catch (error) {
-      res.status(HttpStatus.NOT_ACCEPTABLE).json({
-        code: HttpStatus.NOT_ACCEPTABLE,
-        data: data,
-        message: 'User Not Saved'
-      });
-      next(error);
-    }
-  }
-  else if (data === "User Already Exists")
-  {
-    try {
-      res.status(HttpStatus.NOT_ACCEPTABLE).json({
-        code: HttpStatus.NOT_ACCEPTABLE,
-        data: data,
-        message: 'User Already Exists'
-      });
-    } catch (error) {
-      res.status(HttpStatus.NOT_ACCEPTABLE).json({
-        code: HttpStatus.NOT_ACCEPTABLE,
-        data: data,
-        message: 'User Not Saved'
-      });
-      next(error);
-    }
-  }
-  else
-  {
-    try {
+      const data = await UserService.newUser(req.body);
       res.status(HttpStatus.CREATED).json({
-        code: HttpStatus.ACCEPTED,
+        code: HttpStatus.CREATED,
         data: data,
-        message: 'User Created Successfully'
+        message: 'User Saved Successfully!!!'
       });
     } catch (error) {
-      res.status(HttpStatus.NOT_FOUND).json({
-        code: HttpStatus.NOT_FOUND,
-        data: data,
-        message: 'User Not Saved'
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
       });
-      next(error);
     }
-  }
 };
 
 export const loginUser = async (req, res, next) => {
 
-  const data = await UserService.loginUser(req.body.emailId, req.body.password);
-  if (data == "User LoggedIn Successfully!!")
-  {
     try {
-      res.status(HttpStatus.CREATED).json({
+      const data = await UserService.loginUser(req.body.emailId, req.body.password);
+      res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
         data: data,
         message: 'User LoggedIn Successfully'
       });
     } catch (error) {
-      next(error);
-    }
-  }
-  else
-  {
-    try {
-      res.status(HttpStatus.NOT_FOUND).json({
-        code: HttpStatus.NOT_FOUND,
-        data: data,
-        message: 'User Login Unsuccessful'
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
       });
-    } catch (error) {
-      next(error);
     }
-  }
 };
