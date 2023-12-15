@@ -170,3 +170,39 @@ info: ::ffff:127.0.0.1 - - [15/Dec/2023:05:44:26 +0000] "POST /api/v1/users/logi
 
 info: ::ffff:127.0.0.1 - - [15/Dec/2023:05:44:32 +0000] "POST /api/v1/users/login HTTP/1.1" 201 89 "-" "PostmanRuntime/7.36.0"
 
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:05:57:59 +0000] "POST /api/v1/users HTTP/1.1" 201 79 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:05:58:06 +0000] "POST /api/v1/users HTTP/1.1" 201 304 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:05:58:29 +0000] "POST /api/v1/users/login HTTP/1.1" 404 80 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:05:58:39 +0000] "POST /api/v1/users/login HTTP/1.1" 404 79 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:05:58:43 +0000] "POST /api/v1/users/login HTTP/1.1" 201 89 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:06:00:26 +0000] "POST /api/v1/users/login HTTP/1.1" 201 89 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:06:00:33 +0000] "POST /api/v1/users/login HTTP/1.1" 404 80 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:06:00:40 +0000] "POST /api/v1/users/login HTTP/1.1" 404 79 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:06:00:44 +0000] "POST /api/v1/users/login HTTP/1.1" 201 89 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:06:01:34 +0000] "POST /api/v1/users HTTP/1.1" 201 79 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:06:01:40 +0000] "POST /api/v1/users HTTP/1.1" 201 305 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:06:02:44 +0000] "POST /api/v1/users HTTP/1.1" 201 79 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:06:02:53 +0000] "POST /api/v1/users HTTP/1.1" 201 79 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:06:03:59 +0000] "POST /api/v1/users HTTP/1.1" 201 304 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:06:08:31 +0000] "POST /api/v1/users HTTP/1.1" 406 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:06:08:45 +0000] "POST /api/v1/users HTTP/1.1" 406 72 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:06:08:54 +0000] "POST /api/v1/users HTTP/1.1" 406 72 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:06:09:09 +0000] "POST /api/v1/users HTTP/1.1" 201 304 "-" "PostmanRuntime/7.36.0"
+
