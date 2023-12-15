@@ -1,11 +1,9 @@
 import User from '../models/user.model';
 
 export const newUser = async (body) => {
-  const d = await User.find();
-  let dd = d.filter((x) => x.emailId === body.emailId);
-  // console.log(dd.length);
+  const d = await User.findOne({emailId: body.emailId});
 
-  if (dd.length === undefined) {
+  if (d === null) {
     const data = await User.create(body);
     return data;
   } else {
@@ -14,9 +12,24 @@ export const newUser = async (body) => {
 };
 
 export const loginUser = async (body) => {
-  const data = await User.find();
-  let dd = data.filter((x) => x.emailId === body.emailId);
-  console.log(dd.length);
 
-  return data;
+const data = await User.findOne({emaildId: body.emailId});
+console.log(data);
+
+if (data === null)
+{
+  return "User doesn't exists.."
+}
+else
+{
+  if (body.password == data.password)
+  {
+    return "User LoggedIn Successfully!!"
+  }
+  else
+  {
+    return "Password is Incorrect!"
+  }
+}
+
 };

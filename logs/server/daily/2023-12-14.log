@@ -613,3 +613,13 @@ info: Connected to the database. {"timestamp":"2023-12-14T11:41:51.662Z"}
 info: Connected to the database. {"timestamp":"2023-12-14T11:42:01.610Z"}
 info: Connected to the database. {"timestamp":"2023-12-14T11:45:47.409Z"}
 info: Connected to the database. {"timestamp":"2023-12-14T11:46:02.674Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T15:51:06.150Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:51:06.174Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T15:53:32.293Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:53:32.331Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T15:54:54.610Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:54:54.674Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T15:55:37.031Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T15:55:37.057Z"}
+info: Server started at http://127.0.0.1:3000/api/v1/ {"timestamp":"2023-12-14T16:20:55.629Z"}
+info: Connected to the database. {"timestamp":"2023-12-14T16:20:55.674Z"}

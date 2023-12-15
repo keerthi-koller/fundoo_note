@@ -21,13 +21,28 @@ export const newUser = async (req, res, next) => {
 
 export const loginUser = async (req, res, next) => {
   const data = await UserService.loginUser(req.body);
-  try {
-    res.status(HttpStatus.CREATED).json({
-      code: HttpStatus.ACCEPTED,
-      data: data,
-      message: 'User LoggedIn Successfully'
-    });
-  } catch (error) {
-    next(error);
+  if (data == "User LoggedIn Successfully!!")
+  {
+    try {
+      res.status(HttpStatus.CREATED).json({
+        code: HttpStatus.ACCEPTED,
+        data: data,
+        message: 'User LoggedIn Successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+  else
+  {
+    try {
+      res.status(HttpStatus.NOT_FOUND).json({
+        code: HttpStatus.NOT_FOUND,
+        data: data,
+        message: 'User Login Unsuccessful'
+      });
+    } catch (error) {
+      next(error);
+    }
   }
 };
