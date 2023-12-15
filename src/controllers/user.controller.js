@@ -20,7 +20,8 @@ export const newUser = async (req, res, next) => {
 };
 
 export const loginUser = async (req, res, next) => {
-  const data = await UserService.loginUser(req.body);
+
+  const data = await UserService.loginUser(req.body.emailId, req.body.password);
   if (data == "User LoggedIn Successfully!!")
   {
     try {

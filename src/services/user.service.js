@@ -11,18 +11,22 @@ export const newUser = async (body) => {
   }
 };
 
-export const loginUser = async (body) => {
+export const loginUser = async (emailId, password) => {
 
-const data = await User.findOne({emaildId: body.emailId});
-console.log(data);
+console.log(emailId+"lll");  
+console.log(password+"ppp");
 
-if (data === null)
+  const data = await User.findOne({emailId});
+
+  console.log(data);
+
+  if (data === null)
 {
   return "User doesn't exists.."
 }
 else
 {
-  if (body.password == data.password)
+  if (password == data.password)
   {
     return "User LoggedIn Successfully!!"
   }
