@@ -298,3 +298,7 @@ info: ::ffff:127.0.0.1 - - [15/Dec/2023:10:26:50 +0000] "POST /api/v1/notes HTTP
 
 info: ::ffff:127.0.0.1 - - [15/Dec/2023:10:27:25 +0000] "GET /api/v1/notes HTTP/1.1" 202 400 "-" "PostmanRuntime/7.36.0"
 
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:11:10:35 +0000] "POST /api/v1/notes HTTP/1.1" 201 220 "-" "PostmanRuntime/7.36.0"
+
+info: ::ffff:127.0.0.1 - - [15/Dec/2023:11:10:46 +0000] "GET /api/v1/notes HTTP/1.1" 202 563 "-" "PostmanRuntime/7.36.0"
+

@@ -14,11 +14,10 @@ export const newNote = async (req, res) => {
             code: HttpStatus.BAD_REQUEST,
             message: `${error}`
         })
-        console.log(error);
     }
 }
 
-export const getAllNotes = async (req, res) => {
+export const getAllNotes = async (reqq, res) => {
     try {
         const data = await noteService.getAllNotes();
         res.status(HttpStatus.ACCEPTED).json({
